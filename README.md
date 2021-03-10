@@ -1,5 +1,5 @@
 # Meet the Collaborators
-![image](https://user-images.githubusercontent.com/66127229/110694403-26ca0b00-81ae-11eb-9f5a-602d1f3935e0.png)
+![image](https://user-images.githubusercontent.com/66127229/110695129-17978d00-81af-11eb-880e-42e7a0e474f3.png)
 
 ## Welcome to Team "Epigenomics" GitHub Page
 
