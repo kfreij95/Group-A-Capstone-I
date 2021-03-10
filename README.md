@@ -1,4 +1,5 @@
-# Group A Capstone I
+# Meet the Collaborators
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kfreij95/foss-test-kwf/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
