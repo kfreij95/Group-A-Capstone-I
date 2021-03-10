@@ -1,5 +1,5 @@
 # Meet the Collaborators
-
+https://github.com/kfreij95/Group-A-Capstone-I/issues/2#issue-828300956
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kfreij95/foss-test-kwf/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
