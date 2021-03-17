@@ -11,6 +11,10 @@ Our team's interest center on the analysis of epigenomic and genomic datasets.  
 
 
 
+| **Meet the team** |  |
+|---|---|
+| <img src="https://user-images.githubusercontent.com/76827831/111551330-f7874100-874d-11eb-8e92-e272f7b793aa.png" width="125" height="150"> | **Nicole C. Riddle, PhD**   Nicole is an Associate Professor in the Department of Biology at the University of Alabama at Birmingham. |
+
 ### Instructions on how to edit this page
 
 Introduction here.
@@ -23,7 +27,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
+```markdow
 Syntax highlighted code block
 
 # Header 1
