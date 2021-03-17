@@ -11,7 +11,7 @@ Our team's interest center on the analysis of epigenomic and genomic datasets.  
 
 
 
-# Instructions on how to edit this page
+### Instructions on how to edit this page
 
 Introduction here.
 You can use the [editor on GitHub](https://github.com/kfreij95/foss-test-kwf/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
