@@ -2,13 +2,19 @@
 
 Our team's interest center on the analysis of epigenomic and genomic datasets.  Thus, we are interested in analyzing a variety of large datasets, often derived from next generation sequencing.  These datasets include RNA-seq, ChIP-seq, ATAC-seq, RBBS data, and more.  Managing this variety of datasets and formats, as well as the analysis pipelines needed is something we hope to use the tools provided by Cyverse for. 
 
+
+## Meet the Collaborators
+<img src="https://user-images.githubusercontent.com/66127229/110695129-17978d00-81af-11eb-880e-42e7a0e474f3.png" width="125" height="150">
+
+
+
+#Instructions on how to edit this page
+
 Introduction here.
 You can use the [editor on GitHub](https://github.com/kfreij95/foss-test-kwf/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Meet the Collaborators
-<img src="https://user-images.githubusercontent.com/66127229/110695129-17978d00-81af-11eb-880e-42e7a0e474f3.png" width="125" height="150">
 
 ### Markdown
 
