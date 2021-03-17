@@ -6,7 +6,7 @@ Our team's interest center on the analysis of epigenomic and genomic datasets.  
 ## Meet the Collaborators
 <img src="https://user-images.githubusercontent.com/66127229/110695129-17978d00-81af-11eb-880e-42e7a0e474f3.png" width="125" height="150">
 
-
+<img src="https://user-images.githubusercontent.com/76827831/111551330-f7874100-874d-11eb-8e92-e272f7b793aa.png" width="125" height="150">
 
 
 
