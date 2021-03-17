@@ -1,5 +1,7 @@
 ## Welcome to Team "Epigenomics" GitHub Page
 
+Our team's interest center on the analysis of epigenomic and genomic datasets.  Thus, we are interested in analyzing a variety of large datasets, often derived from next generation sequencing.  These datasets include RNA-seq, ChIP-seq, ATAC-seq, RBBS data, and more.  Managing this variety of datasets and formats, as well as the analysis pipelines needed is something we hope to use the tools provided by Cyverse for. 
+
 Introduction here.
 You can use the [editor on GitHub](https://github.com/kfreij95/foss-test-kwf/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
