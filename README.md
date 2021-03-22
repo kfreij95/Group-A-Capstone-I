@@ -1,6 +1,6 @@
 ## Welcome to Team "Epigenomics" GitHub Page
 
-Our team's interest center on the analysis of epigenomic and genomic datasets.  Thus, we are interested in analyzing a variety of large datasets, often derived from next generation sequencing.  These datasets include RNA-seq, ChIP-seq, ATAC-seq, RBBS data, and more.  Managing this variety of datasets and formats, as well as the analysis pipelines needed is something we hope to use the tools provided by Cyverse for. 
+Our team's interest center on the analysis of epigenomic and genomic datasets.  Thus, we are interested in analyzing a variety of large datasets, often derived from next generation sequencing.  These datasets include RNA-seq, ChIP-seq, ATAC-seq, RRBS data, and more.  Managing this variety of datasets and formats, as well as the analysis pipelines needed is something we hope to use the tools provided by Cyverse for. 
 
 | **Meet the team** |  |
 |---|---|
