@@ -6,7 +6,7 @@ Our team's interest center on the analysis of epigenomic and genomic datasets.  
 |---|---|
 | <img src="https://user-images.githubusercontent.com/76827831/111551330-f7874100-874d-11eb-8e92-e272f7b793aa.png" width="125" height="150"> | **Nicole C. Riddle, PhD**   Nicole is an Associate Professor in the Department of Biology at the University of Alabama at Birmingham. |
 | | |
-| <img src="https://user-images.githubusercontent.com/66127229/110695129-17978d00-81af-11eb-880e-42e7a0e474f3.png" width="125" height="150"> | [**Khalid W. Freij**](https://github.com/kfreij95)<br/> Khalid is a Ph.D. Student in the Department of Biology at the University of Alabama at Birmingham. |
+| <img src="https://user-images.githubusercontent.com/66127229/110695129-17978d00-81af-11eb-880e-42e7a0e474f3.png" width="145" height="150"> | [**Khalid W. Freij**](https://github.com/kfreij95)<br/> Khalid is a Ph.D. Student in the Department of Biology at the University of Alabama at Birmingham. |
 
 ### Instructions on how to edit this page
 
