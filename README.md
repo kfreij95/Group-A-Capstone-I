@@ -8,7 +8,7 @@ Our team's interest center on the analysis of epigenomic and genomic datasets.  
 |---|---|
 | <img src="https://www.uab.edu/cas/biology/images/images/people/faculty/nicole-riddle.jpg"> | [**Nicole C. Riddle, PhD**](https://github.com/riddlenc)<br/> Nicole is an Associate Professor in the Department of Biology at the University of Alabama at Birmingham. |
 | <img src="https://www.uab.edu/cas/biology/images/images/people/grad_students/khalid-freij.jpg"> | [**Khalid W. Freij**](https://github.com/kfreij95)<br/> Khalid is a Ph.D. Student in the Department of Biology at the University of Alabama at Birmingham. |
-| <img src="https://imgur.com/zbI5XuQ.jpg" width="300" height="325"> | [**Serhat Turkmen, PhD**](https://github.com/s3rhat)<br/> Serhat is a Postdoctoral Fellow in the Department of Biology at the University of Alabama at Birmingham. |
+| <img src="https://imgur.com/zbI5XuQ.jpg"> | [**Serhat Turkmen, PhD**](https://github.com/s3rhat)<br/> Serhat is a Postdoctoral Fellow in the Department of Biology at the University of Alabama at Birmingham. |
 
 
 
