@@ -13,4 +13,5 @@ Our team's interest center on the analysis of epigenomic and genomic datasets.  
 | <img src="https://i2.wp.com/publichealth.berkeley.edu/wp-content/uploads/2020/08/phil-c-98.jpg?w=900&ssl=1" width="300"> | [**Philip Collender**](https://github.com/pcollender)**,** [**MPH**](https://scholar.google.com/citations?user=dp7nggQAAAAJ&hl=en)<br/> Philip is an academic researcher at the University of California, Berkeley School of Public Health, Environmental Health Sciences division. |
 
 ## Data Management Plan
-[Here is how we are managing our data as it is collected to make it open for our colleagues.](https://github.com/kfreij95/Group-A-Capstone-I/projects/1?add_cards_query=is%3Aopen)
+[Here is how we are managing our data as it is collected to make it open for our colleagues.](https://github.com/kfreij95/Group-A-Capstone-I/projects/1?add_cards_query=is%3Aopen)<br>
+**- List out steps and how we plan to perform each in the project section**
