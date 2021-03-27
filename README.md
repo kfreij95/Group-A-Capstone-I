@@ -2,6 +2,7 @@
 Our team's interest center on the analysis of epigenomic and genomic datasets.  Thus, we are interested in analyzing a variety of large datasets, often derived from next generation sequencing.  These datasets include RNA-seq, ChIP-seq, ATAC-seq, RRBS data, and more.  [Managing this variety of datasets and formats](https://github.com/kfreij95/Group-A-Capstone-I/blob/main/Data-Files/datafilesreadme.md), as well as the analysis pipelines needed is something we hope to use the tools provided by Cyverse for. 
 
 ## Meet the Team <br>
+
 | |  |
 |---|---|
 | <img src="https://www.uab.edu/cas/biology/images/images/people/faculty/nicole-riddle.jpg"> | [**Nicole C. Riddle, PhD**](https://github.com/riddlenc)<br/> Nicole is an Associate Professor in the Department of Biology at the University of Alabama at Birmingham. |
