@@ -27,7 +27,7 @@ ln -s /opt/conda/pkgs/*/lib/* /usr/lib
 jupyter lab --no-browser --allow-root --ip=128.196.142.80:8888 \
 --NotebookApp.token='' --NotebookApp.password='' \
 --notebook-dir='/scratch/reproducibility-tutorial/'
-<br>
+
 #Install Snakemake<br>
 /opt/conda/bin/conda search -c bioconda snakemake
 
@@ -51,7 +51,7 @@ software-properties-common
 
 #Add Docker key<br>
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-<br>
+
 #Add repository<br>
 sudo add-apt-repository  "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
  $(lsb_release -cs) \
