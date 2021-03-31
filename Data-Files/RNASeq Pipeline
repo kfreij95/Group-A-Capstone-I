@@ -1,0 +1,7 @@
+##SALMON
+Download compressed folder<br>
+```
+$ wget -v -O [folder.to.download.tar.gz]
+```
+
+##STAR
