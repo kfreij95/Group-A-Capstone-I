@@ -1,7 +1,14 @@
 ##SALMON
-Download compressed folder<br>
+#Download compressed folder
+```ruby
+wget -v -O [folder.to.download.tar.gz]
 ```
-$ wget -v -O [folder.to.download.tar.gz]
+
+#If using a Mac, convert the plain text file from DOS/MAC format to Unix format
 ```
+dos2unix [scriptfile.sh]
+```
+
+#
 
 ##STAR
