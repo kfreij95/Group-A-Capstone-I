@@ -1,7 +1,13 @@
 # RRBS Pipeline <br>
-## [Bismark](https://github.com/FelixKrueger/Bismark/tree/master/Docs) <br>
+## [RRBS Guide](https://github.com/FelixKrueger/TrimGalore/blob/master/Docs/RRBS_Guide.pdf)
 
-### [RRBS Guide](https://github.com/FelixKrueger/TrimGalore/blob/master/Docs/RRBS_Guide.pdf)
+### [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+[Download](https://www.bioinformatics.babraham.ac.uk/projects/download.html#fastqc)
+
+### TrimGalore
+```Cutadapt``` finds and removes adapter sequences from the 3' end of reads.
+
+## [Bismark](https://github.com/FelixKrueger/Bismark/tree/master/Docs) <br>
 
 ### [Bismark Installation](https://github.com/FelixKrueger/Bismark/archive/0.22.3.tar.gz)
 ```tar xzf bismark_v0.X.Y.tar.gz```
