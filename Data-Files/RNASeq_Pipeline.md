@@ -1,4 +1,4 @@
-##SALMON
+##SALMON<br>
 #Download compressed folder
 ```
 wget -v -O [folder.to.download.tar.gz]
@@ -24,4 +24,8 @@ echo "Finished FastQC"
 
 UPDATE TO FIT CYVERSE
 
-##STAR
+##STAR<br>
+#Download compressed folder
+```
+wget -v -O [folder.to.download.tar.gz]
+```
