@@ -1,13 +1,13 @@
-##SALMON<br>
-#Download compressed folder
+# SALMON<br>
+## Download compressed folder
 ```
 wget -v -O [folder.to.download.tar.gz]
 ```
-#If using a Mac, convert the needed plain text files from DOS/MAC format to Unix format
+### If using a Mac, convert the needed plain text files from DOS/MAC format to Unix format
 ```
 dos2unix [scriptfile.sh]
 ```
-#FastQC
+## FastQC
 ```
 module load FastQC/0.11.7-Java-1.8.0_74
 ## FastQC
@@ -18,14 +18,14 @@ fastqc -t $SLURM_NTASKS --noextract --nogroup *fastq.gz
 date
 echo "Finished FastQC"
 ```
-#
+## 
 
 
 
 UPDATE TO FIT CYVERSE
 
-##STAR<br>
-#Download compressed folder
+# STAR<br>
+## Download compressed folder
 ```
 wget -v -O [folder.to.download.tar.gz]
 ```
