@@ -1,5 +1,15 @@
 # RRBS Pipeline <br>
 ## [Bismark](https://github.com/FelixKrueger/Bismark/tree/master/Docs) <br>
+
+### [RRBS Guide](https://github.com/FelixKrueger/TrimGalore/blob/master/Docs/RRBS_Guide.pdf)
+
+### [Bismark Installation](https://github.com/FelixKrueger/Bismark/archive/0.22.3.tar.gz)
+```tar xzf bismark_v0.X.Y.tar.gz```
+
+### [Bowtie2 Installation](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.4.2)
+
+### [HISAT2 Installation](http://daehwankimlab.github.io/hisat2/download/)
+
 The typical flow of Bismark can be found below (original User's Guide can be found via the link above): <br>
 ### 1. Prepare the genome by creating a path to the aligner which is either Bowtie2 (default) or HISAT2. <br>
 
