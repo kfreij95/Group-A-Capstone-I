@@ -35,7 +35,7 @@
 ## Compare expression analysis using Ballgown
 
 ---
-# SALMON<br>
+# SALMON
 ## Download compressed folder or file
 ```
 wget -v -O [folder.to.download.tar.gz]
@@ -66,7 +66,7 @@ echo "Finished FastQC"
 ## 
 
 ---
-# STAR<br>
+# STAR
 ## Download compressed folder
 ```
 wget -v -O [folder.to.download.tar.gz]
