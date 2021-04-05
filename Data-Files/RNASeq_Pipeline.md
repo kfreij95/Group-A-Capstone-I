@@ -2,7 +2,7 @@
 ### [CyVerse](#cyverse)
 ### [SALMON](#salmon)
 ### [STAR](#star)
----
+
 # [CyVerse](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736224/RNA-seq+Tutorial-+HISAT2+StringTie+and+Ballgown)
 ## Getting Started
 1. Upload genome file with appropriate name (ex. Rainbow trout genome name is [USDA_OmykA_1.1.fa.tar.gz](https://www.ncbi.nlm.nih.gov/assembly/GCF_013265735.2/)).
@@ -34,7 +34,7 @@
 
 ## Compare expression analysis using Ballgown
 
----
+
 # SALMON
 ## Download compressed folder or file
 ```
