@@ -4,6 +4,9 @@
 - [STAR](#star)
 ---
 # [Cyverse](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736224/RNA-seq+Tutorial-+HISAT2+StringTie+and+Ballgown)
+- [Table of Contents](#table-of-contents)
+- [SALMON](#salmon)
+- [STAR](#star)
 ## Getting Started
 **Purpose:** This section is to get the appropriate files ready for RNASeq analysis via Cyverse and the programs it provides.
 1. Upload genome file with appropriate name (ex. rainbow trout genome name is [USDA_OmykA_1.1.fa.tar.gz](https://www.ncbi.nlm.nih.gov/assembly/GCF_013265735.2/)).
@@ -309,6 +312,9 @@ output[1:10,c(1,4,5)]
 ```
 ---
 # SALMON
+- [Table of Contents](#table-of-contents)
+- [Cyverse](#cyverse)
+- [STAR](#star)
 ## Download compressed folder or file
 ```
 wget -v -O [folder.to.download.tar.gz]
@@ -340,6 +346,9 @@ echo "Finished FastQC"
 
 ---
 # STAR
+- [Table of Contents](#table-of-contents)
+- [Cyverse](#cyverse)
+- [SALMON](#salmon)
 ## Download compressed folder
 ```
 wget -v -O [folder.to.download.tar.gz]
