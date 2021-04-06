@@ -2,11 +2,13 @@
 - [Cyverse](#cyverse)
 - [SALMON](#salmon)
 - [STAR](#star)
+- [GO Expression Analysis](#go-expression-analysis)
 ---
 # [Cyverse](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736224/RNA-seq+Tutorial-+HISAT2+StringTie+and+Ballgown)
 - [Table of Contents](#table-of-contents)
 - [SALMON](#salmon)
 - [STAR](#star)
+- [GO Expression Analysis](#go-expression-analysis)
 ## Getting Started
 **Purpose:** This section is to get the appropriate files ready for RNASeq analysis via Cyverse and the programs it provides.
 1. Upload genome file with appropriate name (ex. rainbow trout genome name is [USDA_OmykA_1.1.fa.tar.gz](https://www.ncbi.nlm.nih.gov/assembly/GCF_013265735.2/)).
@@ -83,7 +85,7 @@ Output: output directory
 - results_trans_filter.sig.tsv - Identify transcripts with p value < 0.05
 - results_trans_filter.tsv - Filter low-abundance genes, here we remove all transcript with a variance across samples less than one
 
-## Run Ballgown for differential gene expression and visualize in Atmosphere.
+## Run Ballgown for differential gene expression and visualize in Atmosphere (or alternatively, use the DESeq2 guide below in either [SALMON](#salmon-deseq2) or [STAR](#star-deseq2)).
 **Purpose:** 
 1. Connect to an Atmosphere Image instance and launch it after [logging in](https://atmo.cyverse.org/application/images).
 2. Click on images. Search ["Ubuntu 16_04 GUI XFCE Base v2"](https://atmo.cyverse.org/application/projects/5308/instances/33557) on the search space. Click on ["Ubuntu 16_04 GUI XFCE Base v2"](https://atmo.cyverse.org/application/projects/5308/instances/33557) image.
@@ -315,9 +317,10 @@ output[1:10,c(1,4,5)]
 - [Table of Contents](#table-of-contents)
 - [Cyverse](#cyverse)
 - [STAR](#star)
+- [GO Expression Analysis](#go-expression-analysis)
 ## Download compressed folder or file
 ```
-wget -v -O [folder.to.download.tar.gz]
+wget -v -O [file1.tar.gz] -L linktopaste.com
 
 or
 
@@ -331,7 +334,7 @@ gunzip [file1]
 ```
 dos2unix [scriptfile.sh]
 ```
-## FastQC
+## SALMON FastQC
 ```
 module load FastQC/0.11.7-Java-1.8.0_74
 ## FastQC
@@ -342,14 +345,48 @@ fastqc -t $SLURM_NTASKS --noextract --nogroup *fastq.gz
 date
 echo "Finished FastQC"
 ```
-## 
+
+##
+
+
+## SALMON DESeq2
+
 
 ---
 # STAR
 - [Table of Contents](#table-of-contents)
 - [Cyverse](#cyverse)
 - [SALMON](#salmon)
+- [GO Expression Analysis](#go-expression-analysis)
 ## Download compressed folder
 ```
 wget -v -O [folder.to.download.tar.gz]
 ```
+
+##
+
+
+## STAR DESeq2
+
+
+---
+# GO Expression Analysis
+- [Table of Contents](#table-of-contents)
+- [Cyverse](#cyverse)
+- [SALMON](#salmon)
+- [STAR](#star)
+## Panther Gene Ontology
+1. Map your organism's genes to the human genome (or other model organism) with the biomaRt tool in RStudio like the example below:
+```
+if(interactive()){
+human = useMart("ensembl", dataset = "hsapiens_gene_ensembl")
+mouse = useMart("ensembl", dataset = "mmusculus_gene_ensembl") 
+getLDS(attributes = c("hgnc_symbol","chromosome_name", "start_position"), filters = "hgnc_symbol", values = "TP53", 
+mart = human, attributesL = c("chromosome_name","start_position"), martL = mouse)
+}
+```
+2. Using the Panther Gene Ontology online tool, upload the entire gene list that meets a log2 fold change ≥ +/- 1 and q-value < 0.05. This will come from the SALMON/STAR --> HTSeq-Count --> DESeq2 pipeline or the HISAT2 --> StringTie --> Ballgown --> DESeq2 pipeline.
+3. Select your model organism that you've matched in the biomaRt step.
+4. Select the analysis and submit.
+5. When writing your methods, inlcude the steps taken, versions used, categorical numbers, and other details to better navigate yourself and others to your results.
+
