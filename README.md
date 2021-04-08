@@ -19,6 +19,7 @@ Reflections from our group members on on tools or concepts learned through FOSS 
     - What tools would you wish we covered more in depth?<br>
 
 ### Peggy <br>
+To begin with, I have learned to outline my data management strategies and use an open platform, like CyVerse, in that strategy. The data management plan tool is super helpful when building a research data plan in terms of data storage, data sharing, and analysis workflows. I am currently applying these concepts in two grant proposals I am writing, and will engage the students in my research lab to also incorporate the CARE and FAIR dta standards to their work. I plan to utilize CyVerse to work collaboratively on several projects that are on going, where we will share data, share data analysis pipelines that will include workflows for RNAseq and RRBS analyses. This will allow all collaborators on the projects to use a standardized workflow, with version control. This will require me spending more time learning about and understanding package managers and containers more, and the barrier is finding the time and bandwidth to devote to this!
 
 ### Phil <br>
 
