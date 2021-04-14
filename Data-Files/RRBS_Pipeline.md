@@ -1,11 +1,14 @@
 # RRBS Pipeline <br>
 ## [RRBS Guide](https://github.com/FelixKrueger/TrimGalore/blob/master/Docs/RRBS_Guide.pdf)
 
-### [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-[Download](https://www.bioinformatics.babraham.ac.uk/projects/download.html#fastqc)
+## Cyverse
 
-### TrimGalore
-```Cutadapt``` finds and removes adapter sequences from the 3' end of reads.
+### [Set up rclone](https://rclone.org/install/) [remotely](https://rclone.org/remote_setup/) to transfer files from storage (e.g., Dropbox, Box, Google Drive, etc.) to Atmosphere.
+
+### TrimGalore/FastQC
+1. Name the analysis
+2. Click FastQC option
+3. 
 
 ## [Bismark](https://github.com/FelixKrueger/Bismark/tree/master/Docs) <br>
 
@@ -15,6 +18,12 @@
 ### [Bowtie2 Installation](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.4.2)
 
 ### [HISAT2 Installation](http://daehwankimlab.github.io/hisat2/download/)
+
+### TrimGalore
+```Cutadapt``` finds and removes adapter sequences from the 3' end of reads.
+
+### [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+[Download](https://www.bioinformatics.babraham.ac.uk/projects/download.html#fastqc)
 
 The typical flow of Bismark can be found below (original User's Guide can be found via the link above): <br>
 ### 1. Prepare the genome by creating a path to the aligner which is either Bowtie2 (default) or HISAT2. <br>
