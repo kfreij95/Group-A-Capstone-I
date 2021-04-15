@@ -4,7 +4,9 @@
 ## Cyverse
 
 ### [Set up rclone](https://rclone.org/install/) [remotely](https://rclone.org/remote_setup/) to transfer files from storage (e.g., Dropbox, Box, Google Drive, etc.) to Atmosphere.
-
+```
+rclone copy src:/path/to/src /path/to/dest/ination
+```
 ### TrimGalore/FastQC
 1. Name the analysis
 2. Click FastQC option
