@@ -13,7 +13,7 @@
 **Purpose:** This section is to get the appropriate files ready for RNASeq analysis via Cyverse and the programs it provides.
 1. Upload genome file with appropriate name (ex. rainbow trout genome name is [USDA_OmykA_1.1.fa.tar.gz](https://www.ncbi.nlm.nih.gov/assembly/GCF_013265735.2/)).
 2. Upload data files to appropriate folder.
-3. Use 'Uncompress with gunzip v1.6-2' app to decompress the files (*.fa.tar.gz --> *.fa)
+3. Files can be compressed (\*.fa.tar.gz) or uncompressed (\*.fa)
 
 ## Align reads to reference genome via HISAT2
 **Purpose:** This section will allow the user to align the FASTQ files to the reference genome for later steps.
