@@ -27,7 +27,7 @@
 11. All other parameters should be set to default (i.e., do not input new values).
 12. Run the analysis and wait for results.
 
-Input: read1 fastq directory & read2 fastq directory<br>
+Input: read1 fastq directory, read2 fastq directory, & genome FASTA file<br>
 Output: bam_output directory
 
 ## Assemble transcripts via StringTie-1.3.3
