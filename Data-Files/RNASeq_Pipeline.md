@@ -15,7 +15,7 @@
 2. Upload data files to appropriate folder.
 3. Files can be compressed (\*.fa.tar.gz) or uncompressed (\*.fa)
 
-## Align reads to reference genome via HISAT2
+## Align reads to reference genome via HISAT2 (v2.1.0)
 **Purpose:** This section will allow the user to align the FASTQ files to the reference genome for later steps.
 1. Properly name your analysis according to the file being analyzed (file1_HISAT2-index-align-2.1_analysis).
 2. Designate an output folder for the analysis.
