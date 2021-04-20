@@ -22,12 +22,9 @@
 3. Select your input files (FASTQ files) under 'Read 1' and 'Read 2'.
 4. Select 'forward-reverse' for Fragment Library Type.
 5. File Type will be 'PE'.
-6. Number of thread should be '4'.
-7. Minimum intron length should be set to '20'.
-8. Maximum intron length should be set to '500000'.
 9. Click box to Report alignments tailored for transcript assemblers including StringTie.
 10. Click box to Report alignments tailored for Cufflinks.
-11. Minimum fragment length for valid paired-end alignments should be set to '0'.
+11. All other parameters should be set to default (i.e., do not input new values).
 12. Run the analysis and wait for results.
 
 Input: read1 fastq directory & read2 fastq directory<br>
