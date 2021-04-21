@@ -33,3 +33,4 @@ The discussions about data management, data integrity, and FAIR data standards h
 
 ### Serhat <br>
 
+Through this course, I have been able to run RNASeq analysis from the samples we obtained from experiments. Being able to have tools to do in one place 'discovery environmet is a great feature. One of the problems we have in the past when working in such data was not having the tools in one place and other members of the lab needed to install different packages and learn command line for each of those packages. This will allow all members of the lab doing the same workflow without any complications. Having data sharable in one place is another big advantage of the platform. I am hoping to learn more on this and looking forward to apply for all the big data analysis obtained from our experiments in the future.
