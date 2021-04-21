@@ -2,7 +2,7 @@
 
 ## Read in a spectrophotometer data file and plot a standard curve.
 ## This script specifically is written for a triglyceride assay.
-## Usage: print-args.R filename conc dilution_factor
+## Usage: Triglycerides_standard_curve_v3.R filename conc dilution_factor
 
 
 # Reading the arguments provided by the user
