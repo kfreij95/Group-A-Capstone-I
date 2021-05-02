@@ -35,7 +35,9 @@ Output: bam_output directory
 1. Access StringTie-1.3.3 via Apps.
 2. Select bam_output directory in 'Select Input data' section.
 3. Select reference annotation file (*.gtf) in 'Reference Annotation' section.
-4. Run StringTie-1.3.3
+4. Enable the output of Ballgown input table files.
+5. Keep other options as default.
+6. Run StringTie-1.3.3
 
 Input: bam_output directory<br>
 Output: gtf_files directory, StringTie_output directory (assembled transcripts, tab-delimited format for gene abundance, transcripts that match the reference annotation), ballgown_input_files directory, and logs directory
