@@ -30,7 +30,7 @@
 Input: read1 fastq directory, read2 fastq directory, & genome FASTA file<br>
 Output: bam_output directory
 
-## Assemble transcripts via StringTie-1.3.3
+## Assemble transcripts via StringTie-1.3.3 (~50 minutes for 6 samples)
 **Purpose:** 
 1. Access StringTie-1.3.3 via Apps.
 2. Select bam_output directory in 'Select Input data' section.
