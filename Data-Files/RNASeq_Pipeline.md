@@ -36,6 +36,7 @@ Output: bam_output directory
 2. Select bam_output directory in 'Select Input data' section.
 3. Select reference annotation file (*.gtf) in 'Reference Annotation' section.
 4. Enable the output of Ballgown input table files.
+- *Selecting this option gives you the ballgown_input_files needed for analysis by the Ballgown R package. It would not be necessary to use StringTie-1.3.3_merge and StringTie-1.3.3 again if this option is selected the first run.*
 5. Keep other options as default.
 6. Run StringTie-1.3.3
 
