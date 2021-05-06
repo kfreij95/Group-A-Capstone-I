@@ -6,7 +6,7 @@
 ### [Set up rclone](https://rclone.org/install/) [remotely](https://rclone.org/remote_setup/) to transfer files from storage (e.g., Dropbox, Box, Google Drive, etc.) to Atmosphere. Standard Cyverse user only has 16GB of storage in an Instance at one time, so you may have to create separate directories in your storage to control the amount transferred (and properly track you've transferred all your files).
 ```
 #Transfer from storage to Instance<br>
-rclone copy src:/path/to/src /path/to/dest/ination<br>
+rclone copy src:/path/to/src /path/to/dest/ination
 #Transfer from Instance to data store
 iput -r /path/from/instance /path/to/data/store
 ```
