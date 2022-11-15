@@ -1,10 +1,10 @@
 # Table of Contents
-- [Cyverse](#cyverse)
+- [HISAT2 via CyVerse](#cyverse)
 - [SALMON](#salmon)
 - [STAR](#star)
 - [GO Expression Analysis](#go-expression-analysis)
 ---
-# [Cyverse](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736224/RNA-seq+Tutorial-+HISAT2+StringTie+and+Ballgown)
+# [HISAT2 via CyVerse](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736224/RNA-seq+Tutorial-+HISAT2+StringTie+and+Ballgown)
 - [Table of Contents](#table-of-contents)
 - [SALMON](#salmon)
 - [STAR](#star)
@@ -41,6 +41,7 @@ Output: bam_output directory
 6. Run StringTie-1.3.3
 
 Input: bam_output directory<br>
+Reference: *insert reference genome here*
 Output: gtf_files directory, StringTie_output directory (assembled transcripts, tab-delimited format for gene abundance, transcripts that match the reference annotation), ballgown_input_files directory, and logs directory
 
 ## Merge all StringTie-1.3.3 transcripts into a single transcriptome annotation file using StringTie-1.3.3_merge
@@ -59,7 +60,8 @@ Output: logs directory, merged.out.gtf
 2. Select options '-B, e' of StringTie-1.3.3 by clicking the boxes at the bottom of the 'analysis option' section (creates *ctab files).
 3. Run analysis.
 
-Input: merged.out.gtf<br>
+Input: bam_output directory<br>
+Reference: merged.out.gtf<br>
 Output: Ballgown_input_files 
 - e_data.ctab: exon-level expression measurements.
 - i_data.ctab: intron-(i.e., junction-) level expression measurements
@@ -315,7 +317,7 @@ output[1:10,c(1,4,5)]
 ---
 # SALMON
 - [Table of Contents](#table-of-contents)
-- [Cyverse](#cyverse)
+- [HISAT2 via CyVerse](#)
 - [STAR](#star)
 - [GO Expression Analysis](#go-expression-analysis)
 ## Download compressed folder or file
@@ -355,7 +357,7 @@ echo "Finished FastQC"
 ---
 # STAR
 - [Table of Contents](#table-of-contents)
-- [Cyverse](#cyverse)
+- [HISAT2 via CyVerse](#cyverse)
 - [SALMON](#salmon)
 - [GO Expression Analysis](#go-expression-analysis)
 ## Download compressed folder
@@ -372,7 +374,7 @@ wget -v -O [folder.to.download.tar.gz]
 ---
 # GO Expression Analysis
 - [Table of Contents](#table-of-contents)
-- [Cyverse](#cyverse)
+- [HISAT2 via CyVerse](#cyverse)
 - [SALMON](#salmon)
 - [STAR](#star)
 ## Panther Gene Ontology
