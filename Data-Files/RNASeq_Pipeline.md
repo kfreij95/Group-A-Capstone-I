@@ -41,7 +41,7 @@ Output: bam_output directory
 6. Run StringTie-1.3.3
 
 Input: bam_output directory<br>
-Reference: *insert reference genome here*
+Reference: *insert reference genome here*<br>
 Output: gtf_files directory, StringTie_output directory (assembled transcripts, tab-delimited format for gene abundance, transcripts that match the reference annotation), ballgown_input_files directory, and logs directory
 
 ## Merge all StringTie-1.3.3 transcripts into a single transcriptome annotation file using StringTie-1.3.3_merge
